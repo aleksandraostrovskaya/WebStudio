@@ -1,0 +1,5 @@
+:root {
+  --max-width: 1200px;
+  --color-dark: #000;
+  --transition: all ease-in-out 500ms;
+}

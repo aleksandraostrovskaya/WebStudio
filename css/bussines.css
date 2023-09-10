@@ -1,0 +1,25 @@
+.bussines{
+	background-color: #2F303A;
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4 ), rgba(47, 48, 58, 0.4 )), url('../img/Img.png') ;
+	background-size: cover;
+}
+
+.bussines .container{
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.bussines__title{
+	max-width: 696px;
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 0.06em;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}

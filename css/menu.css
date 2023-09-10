@@ -1,0 +1,10 @@
+.menu {
+	display: flex;
+	column-gap: 50px;
+	justify-content: space-between;
+
+}
+.contact {
+	display: flex;
+	column-gap: 50px;
+}

@@ -1,0 +1,25 @@
+.gallery {
+	margin-bottom: 94px;
+}
+
+.gallery__title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 0.03em;
+	color: #212121;
+	margin-bottom: 50px;
+}
+
+.gallery__item {
+	text-align: center;
+}
+
+.gallery__img {
+	margin-right: 30px ;
+	
+}
+.gallery__img:last-child {
+	margin-right: 0px
+}
