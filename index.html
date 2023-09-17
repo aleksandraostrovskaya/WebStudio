@@ -151,11 +151,30 @@
       </div>
       <section class="gallery">
         <h3 class="gallery__title">Чем мы занимаемся</h3>
+        <div class="container">
+
+        
         <div class="gallery__item">
-          <img class="gallery__img" src=".//img/img (1).png" alt="">
-          <img class="gallery__img" src=".//img/img (2).png" alt="">
-          <img class="gallery__img" src=".//img/img (3).png" alt="">
+          <div class="gallery__block">
+            <img class="gallery__img" src=".//img/img (1).png" alt="">
+            <div class="gallery__text">
+              Десктопные приложения
+            </div>
+          </div>
+          <div class="gallery__block">
+            <img class="gallery__img" src=".//img/img (2).png" alt="">
+            <div class="gallery__text">
+              Мобильные приложения
+            </div>
+          </div>
+          <div class="gallery__block">
+            <img class="gallery__img" src=".//img/img (3).png" alt="">
+            <div class="gallery__text">
+              Дизайнерские решения
+            </div>
+          </div>
         </div>
+      </div>
       </section>
       <section class="team">
         <h4 class="team__title">Наша команда</h4>
@@ -513,7 +532,7 @@
           <a href="mailto:info@example.com" class="footer__mail">info@example.com</a>
           <a href="tel:+380991111111" class="footer__tel">+38 099 111 11 11</a>
         </div>
-        <div class="footer__social">
+        <div class="footer__social footer__social-block" >
           <h5 class="footer__social-title">Присоединяйтесь</h5>
           <div class="footer__social-icon">
             <a href="#" class="footer__social-link">
@@ -568,6 +587,17 @@
               </svg>
           </a>
           </div>
+        </div>
+        <div class="footer__social">
+          <h5 class="footer__social-title">Подпишитесь на рассылку</h5>
+          <form class="footer__form">
+            <input type="email" placeholder="E-mail" class="footer__email"/>
+            <button class="footer__button btn btn-blue" type="submit">Подписаться
+              <svg class="footer__button-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white"/>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
