@@ -55,3 +55,16 @@
 .contact .contact__item .contact__link:hover .contact__svg {
   fill: #2196f3;
 }
+/* .menu__item {
+  position: relative;
+}
+.menu__link:hover::after {
+  content: '';
+  width: 48px;
+  height: 4px;
+  background-color: rgba(33, 150, 243, 1);
+  display: inline-block;
+  position: absolute;
+  bottom: -35px;
+  right: 0;
+} */
