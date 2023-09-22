@@ -16,7 +16,7 @@
 	background-color: #fff;
 	max-width: 528px;
 	width: 100%;
-	padding: 40px;
+	padding: 10px 40px 40px 40px;
 	border-radius: 4px;
 	margin: auto;
 	transform: scale(1.1);
@@ -31,13 +31,13 @@
 	transform: scale(1);
 }
 
-.modal__close {
+.modal__close{
 	border-radius: 50%;
 	border: 1px solid #0000001A;
 	width: 30px;
 	height: 30px;
 	position: relative;
-	top: -32px;
+	top: -5px;
 	left: 450px;
 	font-weight: 400;
 	font-size: 22px;
