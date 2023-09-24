@@ -93,6 +93,10 @@
 	position: relative;
 	bottom: 27px;
 	left: 12px;
+	fill:#212121;
+}
+.modal__name-input:focus + .modal__name-svg{
+	fill: #2196F3;
 }
 /*---------------------------*/
 .modal__phone {
@@ -162,6 +166,10 @@
 	position: relative;
 	bottom: 27px;
 	left: 12px;
+	fill: #212121;
+}
+.modal__email-input:focus + .modal__email-svg{
+	fill: #2196F3;
 }
 /*------------------*/
 .modal__comment {
