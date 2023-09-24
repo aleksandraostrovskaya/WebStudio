@@ -19,8 +19,8 @@
 	padding: 10px 40px 40px 40px;
 	border-radius: 4px;
 	margin: auto;
-	transform: scale(1.1);
-	transition: all 0.5s ease-in-out;
+	transform: scale(.2);
+	transition: all 0.7s linear;
 	position: relative;
 }
 
