@@ -21,7 +21,7 @@
   color: #000000;
 }
 
-.nav .menu__item .menu__link {
+.menu__link {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #212121;
@@ -31,7 +31,7 @@
   color: #2196f3;
 }
 
-.contact .contact__item .contact__link {
+.contact__link {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #757575;

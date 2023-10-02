@@ -26,8 +26,11 @@
 }
 @media (max-width:992px) {
 	.contact {
-		display: none;
+		/* display: none; */
 
+	}
+	.contact__link {
+		
 	}
 	.nav {
 		position: fixed;
@@ -46,8 +49,27 @@
 	}
 	.hamburger {
 		display: inline-block;
+		
 	}
 	.nav.is-active{
 		transform: translateX(0);
+	}
+	.menu {
+		flex-direction: column;
+		gap: 32px;
+		padding-top: 48px;
+		padding-left: 40px;
+		padding-bottom: 30px;
+
+
+	}
+	.menu__link {
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 47px;
+		letter-spacing: 0.02em;
+	}
+	.menu__link::after, .menu__link-active::after {
+		display: none;
 	}
 }

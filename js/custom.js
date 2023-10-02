@@ -21,10 +21,10 @@ modal.onclick = closeModal
 btnOpen.onclick = openModal
 
 
-    if (hamburger !== null) {
-        hamburger.addEventListener("click", function() {
-          this.classList.toggle("is-active");
-					menu.classList.toggle('is-active')
-        }, false);
-				
-    }
+if (hamburger !== null) {
+		hamburger.addEventListener("click", function() {
+			this.classList.toggle("is-active");
+			menu.classList.toggle('is-active')
+		}, false);
+		
+}
