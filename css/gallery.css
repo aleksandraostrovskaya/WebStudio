@@ -14,23 +14,18 @@
 
 .gallery__item {
 	display: flex;
+	gap: 30px;
 	justify-content: space-between;
-	overflow: hidden;
+	
 	transition: all 0.5s ease-in-out;
 
 }
 
 
-.gallery__img {
-	margin-right: 30px ;
-	
-}
-.gallery__img:last-child {
-	margin-right: 0px
-}
 .gallery__block {
 	position: relative;
 	flex-basis: 370px;
+	overflow: hidden;
 
 }
 
