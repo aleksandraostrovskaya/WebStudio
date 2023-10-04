@@ -25,6 +25,7 @@ if (hamburger !== null) {
 		hamburger.addEventListener("click", function() {
 			this.classList.toggle("is-active");
 			menu.classList.toggle('is-active')
-		}, false);
+			document.body.classList.toggle('is-active')
+		});
 		
 }
