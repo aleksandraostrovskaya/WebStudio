@@ -26,6 +26,7 @@
   font-size: 14px;
   color: #212121;
   transition: var(--transition);
+  font-weight: 500;
 }
 .nav .menu__item .menu__link:hover {
   color: #2196f3;

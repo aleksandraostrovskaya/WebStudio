@@ -22,7 +22,46 @@
 	.future .container{
 		gap:  15px;
 	}
-
+	.clients__icon{
+		flex-wrap: wrap;
+		gap: 30px;
+		justify-content: center;
+	}
+	.footer__email{
+		width: 100%;
+	}
+	.footer__button{
+		width: 100%;
+	}
+	.footer .container {
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	.team__item{
+		margin-right: 0;
+	}
+	.team .container{
+		justify-content: center;
+		gap: 20px;
+	}
+	.footer__adress{
+		width: 100%;
+	}
+	.footer__social{
+		width: 100%;
+	}
+	.footer__social-icon{
+		
+		justify-content: center;
+	}
+	.future .container {
+		justify-content: center;
+	}
+	.footer__logo{
+		margin-right: 0px;
+	}
 }
 @media (max-width:992px) {
 	.contact {
@@ -79,10 +118,21 @@
 	.mobille__contact{
 		display: block;
 		position: absolute;
-		bottom: 0;
-		left: 0;
+		bottom: 50px;
+		left: 40px;
+		width: 200px;
+	}
+	.mobille__contact-link {
+		display: block;
+		margin-bottom: 32px;
 	}
 	.header{
 		position: relative;
+	}
+	.footer__tel {
+		margin-bottom: 60px;
+	}
+	.footer__social-icon {
+		margin-bottom: 60px;
 	}
 }

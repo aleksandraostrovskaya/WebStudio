@@ -3,7 +3,9 @@
   margin: 0px;
   border: none;
 }
-
+html , body {
+  scroll-behavior: smooth;
+}
 *,
 *::before,
 *::after {
