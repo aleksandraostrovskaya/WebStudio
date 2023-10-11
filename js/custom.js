@@ -3,7 +3,7 @@ const modal = document.querySelector('.js-backdrop')
 const btnClose = document.querySelector('.modal__close')
 const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector('.nav')
-
+const menuactive = document.querySelectorAll('.menu .menu__item .menu__link')
 
 function openModal () {
 	modal.classList.add('showModal')
@@ -29,3 +29,12 @@ if (hamburger !== null) {
 		});
 		
 }
+
+// menuactive.forEach((el) => {
+// 	if (window.location.pathname.indexOf(el.getAttribute("href")) > -1) {
+// 			el.classList.add("menu__link-active");
+// 	}
+// 	console.log(window.location.pathname.indexOf(el.getAttribute("href")) > -1)
+// });
+
+

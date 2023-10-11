@@ -52,8 +52,12 @@
 	.footer__social{
 		width: 100%;
 	}
+	.footer__social-title {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
 	.footer__social-icon{
-		
+		margin-bottom: 40px;
 		justify-content: center;
 	}
 	.future .container {
@@ -62,14 +66,14 @@
 	.footer__logo{
 		margin-right: 0px;
 	}
+	.footer__tel {
+		margin-bottom: 40px;
+	}
 }
 @media (max-width:992px) {
 	.contact {
 		display: none;
 
-	}
-	.contact__link {
-		
 	}
 	.nav {
 		position: fixed;
@@ -84,8 +88,7 @@
 		transform: translateX(-150vw);
 		overflow-x: hidden;
 		transition: var(--transition);
-		
-
+	
 	}
 	.hamburger {
 		display: inline-block;
@@ -120,19 +123,84 @@
 		position: absolute;
 		bottom: 50px;
 		left: 40px;
-		width: 200px;
+		width: 300px;
 	}
 	.mobille__contact-link {
 		display: block;
 		margin-bottom: 32px;
+		font-family: Roboto;
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 40px;
+		letter-spacing: 0.02em;
+		color: #2196F3;
+	}
+	.mobille__contact-mail{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 28px;
+		letter-spacing: 0.02em;
+		color: #757575;
 	}
 	.header{
 		position: relative;
 	}
 	.footer__tel {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 	.footer__social-icon {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
+	.mobille__social{
+		display: flex;
+		position: absolute;
+		bottom: 5px;
+		left: 40px;
+		gap: 10px;
+	}
+	.mobille__social-link{
+		color:#2196F3;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 0.02em;
+		border-right: 2px solid rgba(33, 33, 33, 0.2);
+		padding-right: 7px;
+
+	}
+	.mobille__social-link:last-child{
+		border-right: none;
+	}
+}
+
+@media (max-width:500px) {
+	.nav{
+		max-width: 70%;
+	}
+	.menu__link {
+		font-size: 32px;
+	
+	}
+.mobille__contact-link {
+	font-size: 25px;
+}
+.mobille__contact-mail {
+	font-size: 18px;
+}
+
+.mobille__social-link {
+	font-size: 10px;
+}
+.team__title{
+	padding-top: 45px;
+}
+.clients .container{
+	margin-top: 30px;
+}
+.gallery__title {
+	font-size: 33px;
+}
+.bussines__title{
+	font-size: 33px;
+}
 }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Portfolio</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,9 +18,9 @@
 				<a href="/" class="logo">Web<span>Studio</span></a>
 				<nav class="nav">
 					<ul class="menu">
-						<li class="menu__item"><a class="menu__link menu__link-active" href="index.html">Студия</a></li>
-						<li class="menu__item"><a class="menu__link" href="">Портфолио</a></li>
-						<li class="menu__item"><a class="menu__link" href="">Контакты</a></li>
+						<li class="menu__item"><a class="menu__link" href="index.html">Студия</a></li>
+						<li class="menu__item"><a class="menu__link" href="portfolio.html">Портфолио</a></li>
+						<li class="menu__item"><a class="menu__link" href="#footer">Контакты</a></li>
 					</ul>
 					<div class="mobille__contact">
 						<a href="#" class="mobille__contact-link">+38 096 111 11 11</a>
@@ -53,11 +53,11 @@
 	<section class="portfolio">
 		<div class="container">
 			<div class="portfolio__top">
-				<button class="portfolio-button portfolio-button__active">Все</button>
-				<button class="portfolio-button">Веб-сайты</button>
-				<button class="portfolio-button">Приложения</button>
-				<button class="portfolio-button">Дизайн</button>
-				<button class="portfolio-button">Маркетинг</button>
+				<button class="portfolio-button portfolio-button__active" data-id="all">Все</button>
+				<button class="portfolio-button" data-id="web">Веб-сайты</button>
+				<button class="portfolio-button" data-id="app">Приложения</button>
+				<button class="portfolio-button" data-id="design">Дизайн</button>
+				<button class="portfolio-button" data-id="marketing">Маркетинг</button>
 			</div>
 		
 			<div class="portfolio__bottom">
@@ -77,11 +77,63 @@
 				<div class="portfolio__item">
 					<a href="#" class="portfolio__link">
 						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
+							<img src="/img/2.png" alt="" class="portfolio__item-images">
 							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
 						</div>
 						<div class="portfolio__item-content">
 							<h3 class="portfolio__item-title">Технокряк</h3>
+							<p class="portfolio__item-description">Дизайн</p>
+
+						</div>
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<a href="#" class="portfolio__link">
+						<div class="portfolio__item-img">
+							<img src="/img/3.png" alt="" class="portfolio__item-images">
+							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+						</div>
+						<div class="portfolio__item-content">
+							<h3 class="portfolio__item-title">Ресторан Seafood</h3>
+							<p class="portfolio__item-description">Приложение</p>
+
+						</div>
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<a href="#" class="portfolio__link">
+						<div class="portfolio__item-img">
+							<img src="/img/4.png" alt="" class="portfolio__item-images">
+							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+						</div>
+						<div class="portfolio__item-content">
+							<h3 class="portfolio__item-title">Проект Prime</h3>
+							<p class="portfolio__item-description">Маркетинг</p>
+
+						</div>
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<a href="#" class="portfolio__link">
+						<div class="portfolio__item-img">
+							<img src="/img/5.png" alt="" class="portfolio__item-images">
+							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+						</div>
+						<div class="portfolio__item-content">
+							<h3 class="portfolio__item-title">Проект Boxes</h3>
+							<p class="portfolio__item-description">Приложение</p>
+
+						</div>
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<a href="#" class="portfolio__link">
+						<div class="portfolio__item-img">
+							<img src="/img/6.png" alt="" class="portfolio__item-images">
+							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+						</div>
+						<div class="portfolio__item-content">
+							<h3 class="portfolio__item-title">Inspiration has no Borders</h3>
 							<p class="portfolio__item-description">Веб-сайт</p>
 
 						</div>
@@ -90,12 +142,12 @@
 				<div class="portfolio__item">
 					<a href="#" class="portfolio__link">
 						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
+							<img src="/img/7.png" alt="" class="portfolio__item-images">
 							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
 						</div>
 						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
+							<h3 class="portfolio__item-title">Издание Limited Edition</h3>
+							<p class="portfolio__item-description">Дизайн</p>
 
 						</div>
 					</a>
@@ -103,12 +155,12 @@
 				<div class="portfolio__item">
 					<a href="#" class="portfolio__link">
 						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
+							<img src="/img/8.png" alt="" class="portfolio__item-images">
 							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
 						</div>
 						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
+							<h3 class="portfolio__item-title">Проект LAB</h3>
+							<p class="portfolio__item-description">Маркетинг</p>
 
 						</div>
 					</a>
@@ -116,64 +168,12 @@
 				<div class="portfolio__item">
 					<a href="#" class="portfolio__link">
 						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
+							<img src="/img/9.png" alt="" class="portfolio__item-images">
 							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
 						</div>
 						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
-
-						</div>
-					</a>
-				</div>
-				<div class="portfolio__item">
-					<a href="#" class="portfolio__link">
-						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
-							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-						</div>
-						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
-
-						</div>
-					</a>
-				</div>
-				<div class="portfolio__item">
-					<a href="#" class="portfolio__link">
-						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
-							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-						</div>
-						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
-
-						</div>
-					</a>
-				</div>
-				<div class="portfolio__item">
-					<a href="#" class="portfolio__link">
-						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
-							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-						</div>
-						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
-
-						</div>
-					</a>
-				</div>
-				<div class="portfolio__item">
-					<a href="#" class="portfolio__link">
-						<div class="portfolio__item-img">
-							<img src="/img/1.png" alt="" class="portfolio__item-images">
-							<p class="portfolio__item-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-						</div>
-						<div class="portfolio__item-content">
-							<h3 class="portfolio__item-title">Технокряк</h3>
-							<p class="portfolio__item-description">Веб-сайт</p>
+							<h3 class="portfolio__item-title">Growing Business</h3>
+							<p class="portfolio__item-description">Приложение</p>
 
 						</div>
 					</a>
@@ -181,7 +181,7 @@
 			</div>
 	</div>
 	</section>
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="footer__adress">
 				<a href="#" class="footer__logo">Web<span>Studio</span></a>
