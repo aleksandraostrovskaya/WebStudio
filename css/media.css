@@ -172,6 +172,14 @@
 		border-right: none;
 	}
 }
+@media (max-width:768px) {
+	.portfolio__bottom{
+		justify-content: center;
+	}
+	.portfolio {
+		margin: 40px 0;
+	}
+}
 
 @media (max-width:500px) {
 	.nav{

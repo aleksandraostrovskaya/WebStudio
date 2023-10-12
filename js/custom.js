@@ -3,22 +3,24 @@ const modal = document.querySelector('.js-backdrop')
 const btnClose = document.querySelector('.modal__close')
 const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector('.nav')
-const menuactive = document.querySelectorAll('.menu .menu__item .menu__link')
+const filterBox = document.querySelectorAll('.portfolio__item')
 
 function openModal () {
 	modal.classList.add('showModal')
 }
 function closeModal (event) {
-	event.preventDefault()
+
 	if (event.target === event.currentTarget) {
 		modal.classList.remove('showModal')
 	}
 }
 
+if (btnOpen != undefined && btnClose != undefined) {
+	btnClose.onclick = closeModal
+	modal.onclick = closeModal
+	btnOpen.onclick = openModal
+}
 
-btnClose.onclick = closeModal
-modal.onclick = closeModal
-btnOpen.onclick = openModal
 
 
 if (hamburger !== null) {
@@ -30,11 +32,14 @@ if (hamburger !== null) {
 		
 }
 
-// menuactive.forEach((el) => {
-// 	if (window.location.pathname.indexOf(el.getAttribute("href")) > -1) {
-// 			el.classList.add("menu__link-active");
-// 	}
-// 	console.log(window.location.pathname.indexOf(el.getAttribute("href")) > -1)
-// });
-
+document.querySelector('.portfolio__top').addEventListener('click', event => {
+	if (event.target.tagName !== 'BUTTON') return false
+	let filterClass = event.target.dataset['id']
+	filterBox.forEach (item => {
+		item.classList.remove('hide')
+		if (!item.classList.contains(filterClass) && filterClass !== 'all') {
+			item.classList.add('hide')
+		}
+	})
+})
 

@@ -70,6 +70,7 @@
 	transition: all 0.5s ease-in-out;
 
 }
+
 .portfolio__item-images{
 	display: block;
 	background-size: cover;
@@ -102,19 +103,6 @@
 }
 
 .hide {
-	opacity: 1;
-	animation-name: a1;
-	animation-duration: 2s;
-	animation-fill-mode: forwards;
+	display: none;
 }
 
-@keyframes a1{
-	to {
-		opacity: 0;
-		min-height: 0;
-		min-width: 0;
-		padding: 0;
-		margin: 0;
-		border: 0;
-	}
-}
